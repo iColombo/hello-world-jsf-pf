@@ -1,4 +1,4 @@
-FROM ivandrocolombo/helloworldjsf:1.0
+FROM jboss/wildfly:latest#ivandrocolombo/helloworldjsf:1.0
 LABEL MAINTAINER="iColombo"
 RUN /opt/jboss/wildfly/bin/add-user.sh admin AdminCS1021
 #COPY /hello-world/target/hello-world.war /opt/jboss/wildfly/standalone/deployments/
